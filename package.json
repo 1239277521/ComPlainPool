@@ -1,6 +1,6 @@
 {
   "name": "complain",
-  "version": "1.0.9",
+  "version": "1.0.12",
   "main": "./src/index.js",
   "license": "MIT",
   "scripts": {

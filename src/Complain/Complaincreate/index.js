@@ -159,7 +159,6 @@ export default function Page(props) {
         }
         else {
             //发布吐槽池
-            console.log(formInfo)
             createBase(formInfo, session.environment, (response, errors) => {
                     if (errors) {
                         message.error(errors[0].message);
