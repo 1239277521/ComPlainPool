@@ -20,7 +20,7 @@ function getChromeVersion() {
 
 if(getChromeVersion()) {
     var version = getChromeVersion();
-    if(version <= 80) {
+    if(version <= 65) {
         alert('您使用的浏览器版本过低，为了更好地体验请使用谷歌浏览器并升级到最新版本！');
     }
 }

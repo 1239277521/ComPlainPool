@@ -260,7 +260,6 @@ function Detail(props) {
                     if (errors) {
                         message.error(errors[0].message);
                     } else {
-
                         message.success({
                             content: '评论成功', duration: '1', onClose: () => {
                                 setisPublish(true)
@@ -360,13 +359,13 @@ function Detail(props) {
 
                 <div className={indexCss.content}>
                     <List
-                        pagination={{
-                            responsive: true,
-                            onChange: page => {
-                                console.log(page);
-                            },
-                            pageSize: 10,
-                        }}
+                        // pagination={{
+                        //     responsive: true,
+                        //     onChange: page => {
+                        //         console.log(page);
+                        //     },
+                        //     pageSize: 10,
+                        // }}
 
                         dataSource={cqlData}
                         renderItem={item => {
